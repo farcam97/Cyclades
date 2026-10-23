@@ -1,0 +1,74 @@
+{
+  "version": "18.0",
+  "checkedAt": "2026-10-23T20:32:25.211303+00:00",
+  "productionBrowserTests": {
+    "passed": 58,
+    "failed": 0,
+    "skipped": 0
+  },
+  "sourceProvidedSuites": [
+    {
+      "test": "features-v16.cjs",
+      "exitCode": 0
+    },
+    {
+      "test": "rules-cases.cjs",
+      "exitCode": 1
+    },
+    {
+      "test": "targeted-v16.cjs",
+      "exitCode": 0
+    },
+    {
+      "test": "interaction-v16.cjs",
+      "exitCode": 0
+    },
+    {
+      "test": "integration-v16.cjs",
+      "exitCode": 0
+    },
+    {
+      "test": "campaign-v16.cjs",
+      "exitCode": 0
+    },
+    {
+      "test": "expansion-campaign-v16.cjs",
+      "exitCode": 0
+    },
+    {
+      "test": "board-reconciliation-v14.cjs",
+      "exitCode": 0
+    },
+    {
+      "test": "performance-tests.cjs",
+      "exitCode": 1
+    }
+  ],
+  "knownInheritedFailures": [
+    "rules-cases.cjs: captured-Metropolis bonus expectation",
+    "performance-tests.cjs: obsolete input harness"
+  ],
+  "apk": {
+    "file": "Cyclades-v18.0-preview.apk",
+    "bytes": 48300341,
+    "sha256": "c9dfc39b3d03d8e4031af2504f0a576da35415b40d4a6f7c7a349a880fb5fb9a",
+    "package": "com.aegean.cyclades.preview",
+    "versionName": "18.0-preview",
+    "versionCode": 21,
+    "v2SignatureVerified": true,
+    "v3SignatureVerified": true,
+    "alignmentVerified": true,
+    "signerSha256": "4477af5a04020fd458e349d85d037a34ecbaad12d682d745e6fdd682dd36c967",
+    "assetsMatchingProduction": 452
+  },
+  "map": {
+    "land": 14,
+    "sea": 19,
+    "buildingSites": 25,
+    "churches": 3,
+    "singleOfferingLocations": 11,
+    "doubleOfferingLocations": 2,
+    "authoringOutputReproduced": true
+  },
+  "deviceTesting": "Not run on a physical Android device; no phone FPS or battery improvement claims."
+}
