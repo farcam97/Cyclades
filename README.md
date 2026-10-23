@@ -1,28 +1,19 @@
-# Cyclades 17.0 Preview
+# Cyclades 17.1 Preview
 
-New three-player map, supplied building/navigation artwork, maroon Owl faction, experimental 3D ships with sailing audio, hero touch fixes and the approved controls/readability/battle improvements.
+Battle and interface fixes, compact shops/navigation, demolition animation, and improved maroon/light-cream Owl artwork.
 
-## Download on your phone or computer
+## Download
 
-1. Open [Cyclades-v17.0-preview.apk](Cyclades-v17.0-preview.apk).
-2. Tap **Download raw file**, or the downward arrow on the file page.
-3. Open the downloaded APK on Android to install **Cyclades Preview**.
+1. Open [Cyclades-v17.1-preview.apk](Cyclades-v17.1-preview.apk).
+2. Tap **Download raw file** or the downward arrow.
+3. Open the downloaded APK on Android to update **Cyclades Preview**.
 
-The APK updates the existing locally signed Cyclades Preview. The original Cyclades app remains separate. Export your saved game before changing installations. New three-player campaigns use the supplied map; existing saves retain their original board.
+The original Cyclades installation remains separate. Export saves before changing installations.
 
-Download [the complete source ZIP](Cyclades-v17.0-full-source.zip) with the same downward-arrow button. It includes the graphics assets, original ship STL, Android project, build scripts, tests and map-authoring data. Signing keys are excluded.
+[Complete source ZIP](Cyclades-v17.1-full-source.zip) · [Changes and pending work](CHANGES.md) · [Validation](validation-summary-v17.1.json) · [Checksums](downloads-v17.1.json)
 
-## What changed
+All 51 browser checks pass. APK signatures, alignment and all 410 bundled web assets verified. Physical Android testing has not been performed. Two inherited source-suite discrepancies remain documented.
 
-- Continuous three-player map: 14 land areas, 14 sea areas, 24 building sites, three churches, ten single and two double offering locations.
-- All faction fleets use the supplied 3D ship, with slow bobbing, sailing/wakes and water audio following the existing sound controls.
-- Maroon Owl faction, ownership rings, supplied buildings and normal/dark navigation artwork with a selected-button glow.
-- Rectangular Back/Confirm controls; gray printed offering plaques turn white when extra offerings are added.
-- Hero popup fixes, clearer unavailable actions and battles, piece-size controls and graphics-quality settings. Shops shuffle only for a new campaign and keep saved deck order.
-- Randomized gods remain deferred as agreed.
+Zeus deck-order tests pass. Clarification is still needed about the reported timing/order issue. The separately supplied replacement map, cloud effects, image ships and other new portraits are not part of this patch.
 
-See [full changes and limits](CHANGES.md), [screenshots](screenshots), [validation report](validation-summary-v17.0.json) and [download checksums](downloads-v17.0.json).
-
-All 47 production browser checks pass. Seven source-provided suites pass; two inherited rules/harness discrepancies remain documented. APK signatures, alignment and all 410 packaged web assets were verified. Physical Android performance, battery use and device WebGL behavior still need testing.
-
-![New three-player map](screenshots/phone-map-v17.0.png)
+![Compact battle screen](screenshots/naval-battle-v17.1.png)
